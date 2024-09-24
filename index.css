@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(248, 111, 52);
+}
+
+.wraper {
+    width: 650px;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 30px 30px 25px;
+} 
+
+.wraper header {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wraper .content {
+    margin: 35px 0;;
+}
+
+.content .quote-area {
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area i {
+    font-size: 15px;
+}
+
+.quote-area i:first-child {
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child {
+    margin: 0 0 3px 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quote-area .quote {
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.author span:first-child {
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.wraper .buttons {
+    border-top: 1px solid rgb(163, 161, 161);
+}
+
+.buttons .features {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 22px;
+}
+
+.features ul {
+    display: flex;
+}
+
+.features ul li {
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid rgb(248, 111, 52);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(248, 111, 52);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover {
+    color:#fff;
+    background: rgb(248, 111, 52);
+
+}
+
+.features button {
+    border: none;
+    outline: none;
+    background: rgb(248, 111, 52);
+    padding: 13px 22px;
+    border-radius: 20px;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
